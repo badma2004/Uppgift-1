@@ -9,9 +9,9 @@ namespace Uppgift_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double celsiusValue = Double.Parse(txbCelsius.Text);
-            double result = (celsiusValue * 9 / 5) + 32;
-            txbfahrenheit.Text = result.ToString();
+            double celsiusValue = Double.Parse(txbCelsius.Text); // Hämta värdet som skrevs i Celsius-textrutan
+            double result = (celsiusValue * 9 / 5) + 32; // Räkna ut
+            txbfahrenheit.Text = result.ToString(); // Lagra resultatet i textrutan Fahrenheit
 
         }
     }
